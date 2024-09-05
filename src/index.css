@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.confirm-btn {
+  background-color: #4CAF50!important;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.confirm-btn:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.error-btn {
+  background-color: #f44336;
+  color: white;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.error-btn:hover {
+  background-color: #e31b0c;
+  color: white;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
